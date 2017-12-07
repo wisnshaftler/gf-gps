@@ -5,7 +5,7 @@ $username = "root";
 $password ="";
 $con = mysqli_connect($host,$username,$password,$dbname);
 
-$login_username ="admin";
+$login_username ="username";
 $loging_password ="password";
 
 if (isset($_POST['details'])){
